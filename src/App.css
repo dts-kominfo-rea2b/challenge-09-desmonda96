@@ -1,4 +1,30 @@
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
+  background-color: #92B4EC;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 #FFD24C;
+  width: 500px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+  background-color: #FFE69A;
+}
+
+.card > div {
+  padding: 20px;
+  font-size: 15px;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
 }
